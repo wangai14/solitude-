@@ -251,7 +251,7 @@ sco.changeTimeFormat(document.querySelectorAll('.bber-info-time time'))</script>
             dark: 'html[data-theme="dark"]',
             path: window.location.pathname,
             comment: true,
-            ..."https://anzhoyu.vercel.app"
+            ...{"serverURL":"https://anzhoyu.vercel.app","lang":"zh-CN","dark":"auto","login":"enable","requiredMeta":["nick","mail"],"meta":["nick","mail","link"],"wordLimit":0,"pageSize":10}
         }
         const walineInstance = initFn(walineOptions)
         utils.addGlobalFn('pjax', () => walineInstance.destroy(), 'destroyWaline')
